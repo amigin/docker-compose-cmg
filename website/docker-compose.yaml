@@ -3,6 +3,6 @@ version: '2'
 services:
   website-cmg:
     container_name: website-cmg
-    image: lykkex/coinmarketgene-website:1.0.2
+    image: lykkex/coinmarketgene-website:1.0.3
     ports:
       - "${LISTENPORT}:5555"
