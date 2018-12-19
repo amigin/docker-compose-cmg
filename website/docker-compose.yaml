@@ -5,4 +5,4 @@ services:
     container_name: website-cmg
     image: lykkex/coinmarketgene-website:1.0.2
     ports:
-      - "${LISTENPORT}:5000"
+      - "${LISTENPORT}:5555"
